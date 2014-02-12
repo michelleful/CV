@@ -1,0 +1,330 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page 
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Spring 2011} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.5em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\thispagestyle{empty} % Stop the page count at the bottom of the first page
+\pagenumbering{gobble} % remove page numbers
+\date{Spring 2014}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%---------------------------------------------------------------------------------------
+
+\begin{cv}{\spacedallcaps{Michelle Alison Fullwood}}\vspace{1.5em} % Your name
+
+
+
+% Uncomment the following block to get separate entries for email, website, code
+
+% --------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Personal Information}\vspace{0.5em} % Personal information heading
+
+\NewEntry{email}{\href{mailto:maf@mit.edu}{maf@mit.edu}} % Email address
+
+%\NewEntry{address}{130 Safford Street, Quincy MA 02170} % Address
+
+%\NewEntry{phone}{617-471-4216} % Phone
+
+\NewEntry{website}{\href{http://www.mit.edu/~maf/}{www.mit.edu/$\sim$maf/}} % Personal website
+
+%\NewEntry{code}{\href{http://github.com/michelleful}{github.com/michelleful}} % Personal website
+
+% --------------------------------------------------
+
+\vspace{1.0em} % Extra white space between the personal information section and goal
+
+%\noindent\spacedlowsmallcaps{Goal}\vspace{1em} % Goal heading, could be used for a quotation or short profile instead
+
+%\Description{Opportunities at the intersection of machine learning and language.}\vspace{1em} % Goal text
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Education}\vspace{1em}
+
+\NewEntry{2010--present}{Massachusetts Institute of Technology}
+
+\Description{\MarginText{PhD program in Linguistics}Expected graduation 2015 \ \ $\cdotp$\  Current research:  Bayesian inference of non-concatenative morphology }%\newline \ \ $\cdotp$\  Formal phonology: deriving tone inventories}
+
+\NewEntry{2000--2004}{Cornell University}
+
+\Description{\MarginText{B.A. (Linguistics and Mathematics)}\textit{Magna cum laude} (Linguistics) \ \ $\cdotp$\ \ \textit{Magna cum laude} (Mathematics) \newline  % \ GPA: 4.0
+Study Abroad: Budapest Semesters in Mathematics, Fall 2003 \newline
+Thesis: \textit{Inflected Infinitives in Hungarian: A Relational Grammar Analysis}\newline
+Advisors: Prof.~Wayne \textsc{Harbert} \& Prof.~Carol \textsc{Rosen}}
+
+%------------------------------------------------
+
+\vspace{1.0em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Work Experience}\vspace{1em}
+
+\NewEntry{2008--2010}{Web Developer, \textsc{Imperial Consulting}}
+
+\Description{\MarginText{Imperial Consulting (Boston)}Developed Django-powered 
+web applications for clients in education, biomedical and finance fields.}
+
+%------------------------------------------------
+
+\NewEntry{2008--2009}{External Consultant, CSIT}
+
+\Description{\MarginText{Centre for Strategic Infocomm Technologies (Singapore)}Advised client on issues pertaining to speech and natural language processing.}
+
+\NewEntry{2004--2007}{R\&D Engineer, later Consultant, CSIT}
+
+\Description{Researched techniques and built engines for speech recognition, language and speaker identification, cross-language information retrieval and entity extraction. Managed projects to evaluate and acquire systems.}
+
+\NewEntry{Summer 2004}{Intern, {\sc Parc}}
+
+\Description{\MarginText{Palo Alto \\ Research Center}Engineered a computational Lexical Functional Grammar to cover basic sentences of Modern Standard Arabic. Developed a root-and-pattern-based finite state morphological analyzer for Arabic words.}
+
+%------------------------------------------------
+
+\vspace{1.0em} % Extra space between major sections
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Publications and Presentations}\vspace{1em}
+
+\newlength{\pdatebox} % Create a new length for the length of languages to keep them equally spaced
+\settowidth{\pdatebox}{Under review} % Length equals the length of "English" - if you have a longer language in your list put it here
+
+\Description{\MarginText{Publications}Michelle A. Fullwood (to appear). The perceptual dimensions of sonority-driven epenthesis. In {\it Supplemental Proceedings of Phonology 2013}.}
+
+\vspace{-0.5em}
+
+\Description{Michelle A. Fullwood (to appear). Asymmetric correlations between English verb transitivity and stress. In {\it Proceedings of the 40th Annual Meeting of the Berkeley Linguistics Society.}}
+
+\vspace{-0.5em}
+
+\Description{Michelle A. Fullwood and Suyeon Yun (submitted). Urarina verbal morphology.}
+
+\vspace{-0.5em}
+
+\Description{Michelle A. Fullwood and Timothy J. O'Donnell (2013). Learning non-concatenative morphology. In {\it Proceedings of the Fourth Annual Workshop on Cognitive Modeling and Computational Linguistics (CMCL)}.}
+
+\vspace{-0.5em}
+
+\Description{\MarginText{Conference Presentations}Feb 2014\ \ $\cdotp$\ \ Berkeley Linguistics Society \\ {\em Asymmetric correlations between English verb transitivity and stress}}
+
+\vspace{-0.5em}
+
+\Description{Nov 2013\ \ $\cdotp$\ \ Phonology 2013 (UMass Amherst) \\ {\em The perceptual dimensions of sonority-driven epenthesis} (poster)}
+
+\vspace{-0.5em}
+
+\newpage
+\Description{May 2013\ \ $\cdotp$\ \ Manchester Phonology Meeting (MFM) \\ {\em The perceptual dimensions of sonority-driven epenthesis}}
+
+\vspace{-0.5em}
+
+\Description{\MarginText{Workshop Presentations}Aug 2013\ \ $\cdotp$\ \ Cognitive Modeling and Computational Linguistics Workshop (CMCL) at the Association of Computational Linguistics (ACL)\\ {\em Learning non-concatenative morphology} (with Timothy O'Donnell)}
+
+
+\vspace{-0.5em}
+
+\Description{Oct 2012\ \ $\cdotp$\ \ Northeast Computational Phonology Workshop (NECPhon) \\ {\em Learning non-concatenative morphological units via Bayesian inference}}
+
+\vspace{1.0em} % Extra space between major sections
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Teaching Experience}\vspace{1em}
+
+\Description{\MarginText{}Fall 2011\ \ $\cdotp$\ \ 24.901 Introduction to Phonology\ \ $\cdotp$\ \ Teaching Assistant}
+
+\vspace{-0.5em}
+
+\Description{Fall 2012\ \ $\cdotp$\ \ 24.900 Introduction to Linguistics\ \ $\cdotp$\ \ Teaching Assistant}
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Skills}\vspace{1em}
+
+\Description{\MarginText{Programming Languages}Python, Javascript, R, Perl, Matlab/Octave, Church (Lisp-based probabilistic programming language)}
+
+\Description{\MarginText{Development}Django, Flask, SQL, jQuery, Git, Mercurial}
+
+\Description{\MarginText{Linguistics}Praat, OTSoft, MaxEnt learner (Hayes \& Wilson 2008), xfst}
+
+\newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
+\settowidth{\langbox}{Mandarin} % Length equals the length of "English" - if you have a longer language in your list put it here
+
+\Description{\MarginText{Languages}\parbox{\langbox}{\textsc{English}}\ \ $\cdotp$\ \ \ Native}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{French}}\ \ $\cdotp$\ \ \ Advanced (conversationally fluent)}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Mandarin}}\ \ $\cdotp$\ \ \ Advanced (written and spoken)}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Arabic}}\ \ $\cdotp$\ \ \ Intermediate (written MSA, spoken Levantine and Egyptian)}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Japanese}}\ \ $\cdotp$\ \ \ Elementary}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Hungarian}}\ \ $\cdotp$\ \ \ Elementary}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Latin}}\ \ $\cdotp$\ \ \ Elementary}
+
+%------------------------------------------------
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\newlength{\sdatebox} % Create a new length for the length of languages to keep them equally spaced
+\settowidth{\sdatebox}{2011--present} % Length equals the length of "English" - if you have a longer language in your list put it here
+
+\spacedlowsmallcaps{Other Information}\vspace{1em}
+
+\Description{\MarginText{Awards}2011\ \ $\cdotp$\ \ National Science Foundation Graduate Research Fellowship}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2004\ \ $\cdotp$\ \ Merrill Scholar, Cornell University}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2004\ \ $\cdotp$\ \ Achievement Award for Excellence in Intermediate Arabic, Cornell}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2003\ \ $\cdotp$\ \ Dean's Scholar Summer Research Grant, Cornell University}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2003\ \ $\cdotp$\ \ Achievement Award for Excellence in Elementary Arabic, Cornell}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2001\ \ $\cdotp$\ \ College Scholar, Cornell University}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2000\ \ $\cdotp$\ \ Public Service Commission Overseas Merit Scholarship}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2000\ \ $\cdotp$\ \ Pauline and Irving Tanner Dean's Scholarship, Cornell University}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\newlength{\ndatebox}\settowidth{\ndatebox}{2000--prese} % Set the width of the date box in each block
+
+\Description{\parbox{\ndatebox}{2000--2004}\ \ $\cdotp$\ \ Dean's List, Cornell University}
+
+
+
+%------------------------------------------------
+
+
+\Description{\MarginText{Service}{\parbox{\ndatebox}{2013--2014}}\ \ $\cdotp$\ \ Student Representative, MIT Linguistics}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{{\parbox{\ndatebox}{2013}}\ \ $\cdotp$\ \ Organising committee, Japanese/Korean Linguistics 23}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{{\parbox{\ndatebox}{2011--2013}}\ \ $\cdotp$\ \ {\em Whamit!} departmental newsletter editor}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{{\parbox{\ndatebox}{2003--2004}}\ \ $\cdotp$\ \ Undergraduate representative to the Cornell Library Board}
+
+%------------------------------------------------
+
+%\Description{\MarginText{Memberships}Linguistic Society of America}
+
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+%\Description{Association for Computational Linguistics}
+
+%------------------------------------------------
+
+
+\Description{\MarginText{Other Activities}{\parbox{\ndatebox}{2013--present}}\ \ $\cdotp$\ \ Volunteer instructor, PyLadies Boston}
+
+\vspace{-0.5em}
+
+\Description{{\parbox{\ndatebox}{2013--present}}\ \ $\cdotp$\ \ Founding member, language@MIT}
+
+
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+%\Description{Association for Computational Linguistics}
+
+
+\end{cv}
+
+\end{document}
