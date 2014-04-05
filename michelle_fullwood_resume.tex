@@ -1,0 +1,117 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+\usepackage[none]{hyphenat}
+
+\begin{document}
+\header{Michelle}{Fullwood}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+	Cambridge, MA
+    \href{mailto:maf@mit.edu}{maf@mit.edu}
+    \href{http://www.mit.edu/~maf}{www.mit.edu/\textasciitilde maf}
+    \href{http://github.com/michelleful}{github.com/michelleful}
+  \section{programming}
+    Python, Django, Flask
+    JavaScript, jQuery
+	R, Perl, Matlab/Octave
+	SQL, git
+  \section{languages}
+	{\footnotesize\addfontfeature{Color=lightgray}native} English
+	{\footnotesize\addfontfeature{Color=lightgray}advanced} French
+	         Mandarin
+	{\footnotesize\addfontfeature{Color=lightgray}intermediate} Arabic
+	{\footnotesize\addfontfeature{Color=lightgray}elementary} Japanese
+	           Hungarian
+%	           Latin
+  \section{awards}
+    {\footnotesize\addfontfeature{Color=lightgray}National Science Foundation}
+    {\footnotesize\addfontfeature{Color=lightgray}2011} NSF Graduate Research Fellowship
+    {\footnotesize\addfontfeature{Color=lightgray}Cornell University} 
+    {\footnotesize\addfontfeature{Color=lightgray}2004} Merrill Scholar
+    {\footnotesize\addfontfeature{Color=lightgray}2001} College Scholar
+    {\footnotesize\addfontfeature{Color=lightgray}2000} Dean's Scholar
+    {\footnotesize\addfontfeature{Color=lightgray}2002,2004} Achievement Awards in Arabic
+    {\footnotesize\addfontfeature{Color=lightgray}2000--2004} Dean's List
+    {\footnotesize\addfontfeature{Color=lightgray}Government of Singapore}
+    {\footnotesize\addfontfeature{Color=lightgray}2000} PSC Overseas Merit Scholarship 
+\end{aside}
+
+\section{summary}
+
+Graduate student in linguistics with a background in speech and language processing and web development in Python
+% TODO
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {since 2010}
+    {Ph.D. program in Linguistics, Massachusetts Institute of Technology}
+    {}
+    {%National Science Foundation Graduate Research Fellow \\
+     Research on problems in computational morphology and formal phonology \\
+     Coursework in linguistics, machine learning and Bayesian techniques   \\
+     Teaching assistant in introductory linguistics and phonology
+    }
+  \entry
+    {2000--2004}
+    {B.A. Cornell University, Linguistics and Mathematics}
+    {}
+    {Graduated \emph{magna cum laude} and with distinction in all subjects, 4.0 GPA \\
+	Study abroad, Fall 2003: Budapest Semesters in Mathematics}
+\end{entrylist}
+
+\section{experience}
+
+\begin{entrylist}
+  \entry
+    {2008--2010}
+    {Web Developer, Imperial Consulting}
+    {Boston, MA}
+    {Developed web applications, both front and back end, in Python, Django and jQuery,
+     for clients in fields ranging from education to biomedical to finance}
+  \entry
+    {2008--2009}
+    {External Consultant, Centre for Strategic Infocomm Technologies}
+    {}
+    {Advised client on evaluation procedures in speech and natural language processing}
+  \entry
+    {2004--2008}
+    {R\&D Engineer, later Consultant, \\ Centre for Strategic Infocomm Technologies}
+    {Singapore}
+    {Researched techniques and built engines for speech recognition, language and speaker identification, and cross-language information retrieval \\
+    Managed projects to evaluate and acquire systems}
+  \entry
+    {2004}
+    {Summer Intern, PARC}
+    {Palo Alto, CA}
+    {Engineered a computational Lexical Functional Grammar to cover the basic sentence constructions of Modern Standard Arabic \\
+Built a root-and-pattern-based finite state Arabic morphological analyzer}
+\end{entrylist}
+
+\section{projects}
+
+\begin{entrylist}
+  \entry
+    {since 2012}
+    {Bayesian inference of non-concatenative morphology}
+    {}
+    {Extending state-of-the-art Bayesian techniques for morphological learning to the more complex case of non-concatenative morphology (Arabic, Hebrew) \\
+    Wrote a Markov Chain Monte Carlo (MCMC) sampler in Python to perform inference on a Bayesian generative model of non-concatenative morphology}
+  \entry
+    {2014}
+    {Fuzzy Arabic Dictionary}
+    {\href{http://fuzzyarabic.herokuapp.com}{fuzzyarabic.herokuapp.com}}
+    {Developed a beginner-friendly Arabic dictionary that can be queried without knowing how to spell in Arabic, mashing up the Yamli transliteration service and the free Buckwalter Arabic Morphological Analyzer}
+  \entry
+    {since 2013}
+    {Volunteer tutor, PyLadies Boston}
+    {}
+    {Deliver presentations on beginner and intermediate Python topics and tutor women who are learning to program in Python}
+\end{entrylist}
+
+\end{document}
