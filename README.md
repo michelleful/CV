@@ -3,10 +3,10 @@ Michelle Fullwood
 
 About
 -----
-Cambridge, MA
-maf@mit.edu
-www.mit.edu/~maf
-github.com/michelleful
+* Cambridge, MA
+* maf@mit.edu
+* www.mit.edu/~maf
+* github.com/michelleful
 
 Summary
 -------
@@ -42,18 +42,19 @@ Experience
 Skills
 ------
 **Programming:** Python, Django, Flask, Javascript, jQuery, R, Perl, Matlab/Octave, SQL, git
+
 **Languages  :** English (native), French (advanced), Mandarin (advanced), Arabic (intermediate), Japanese (elementary), Hungarian (elementary)
 
 Awards
 ------
-2011 National Science Foundation Graduate Research Fellowship
-2004 Merrill Presidential Scholar, Cornell University
-2004 Achievement Award in Intermediate Arabic, Cornell University
-2002 Achievement Award in Elementary Arabic, Cornell University
-2001 College Scholar, Cornell University
-2000 Dean's Scholar, Cornell University
-2000–2004 Dean's List
-2000 Public Service Commission (Singapore) Overseas Merit Scholarship
+* National Science Foundation Graduate Research Fellowship (2011)
+* Merrill Presidential Scholar, Cornell University (2004)
+* Achievement Award in Intermediate Arabic, Cornell University (2004)
+* Achievement Award in Elementary Arabic, Cornell University (2002)
+* College Scholar, Cornell University (2001)
+* Dean's Scholar, Cornell University (2000)
+* Dean's List (2000-2004)
+* Public Service Commission (Singapore) Overseas Merit Scholarship (2000)
 
 Projects
 --------
