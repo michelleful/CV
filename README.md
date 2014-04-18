@@ -5,8 +5,8 @@ About
 -----
 * Cambridge, MA
 * maf@mit.edu
-* www.mit.edu/~maf
-* github.com/michelleful
+* [www.mit.edu/~maf](www.mit.edu/~maf)
+* [github.com/michelleful](github.com/michelleful)
 
 Summary
 -------
