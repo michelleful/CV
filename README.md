@@ -11,7 +11,9 @@ About
 
 Summary
 -------
-Python developer with a background in speech & language processing and web development. Excellent analytic skills honed via degrees in linguistics and mathematics and a penchant for solving puzzles. Passionate about learning and helping others learn.
+* Python developer with a background in speech & language processing and web development. 
+* Excellent analytic skills honed via degrees in linguistics and mathematics and a penchant for solving puzzles. 
+* Passionate about learning and helping others learn.
 
 Education
 ---------
