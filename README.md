@@ -46,7 +46,7 @@ Skills
 ------
 **Programming:** Python, Django, Flask, Javascript, jQuery, R, Perl, Matlab/Octave, SQL, git
 
-**Languages  :** English (native), French (advanced), Mandarin (advanced), Arabic (intermediate), Japanese (elementary), Hungarian (elementary)
+**Languages:** English (native), French (advanced), Mandarin (advanced), Arabic (intermediate), Japanese (elementary), Hungarian (elementary)
 
 Awards
 ------
