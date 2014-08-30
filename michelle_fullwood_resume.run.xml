@@ -44,13 +44,13 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>michelle_fullwood_resume.aux</file>
-      <file>michelle_fullwood_resume-blx.bib</file>
+      <file>michelle_fullwood_resume.bcf</file>
     </provides>
     <requires type="dynamic">
       <file>michelle_fullwood_resume.bbl</file>
     </requires>
     <requires type="static">
+      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>verbose.bbx</file>
@@ -62,14 +62,13 @@
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
-    <generic>bibtex</generic>
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex</binary>
-      <option>-min-crossrefs 2</option>
+      <binary>biber</binary>
       <infile>michelle_fullwood_resume</infile>
     </cmdline>
     <input>
-      <file>michelle_fullwood_resume.aux</file>
+      <file>michelle_fullwood_resume.bcf</file>
     </input>
     <output>
       <file>michelle_fullwood_resume.bbl</file>
@@ -78,14 +77,10 @@
       <file>michelle_fullwood_resume.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>michelle_fullwood_resume.aux</file>
-      <file>michelle_fullwood_resume-blx.bib</file>
+      <file>michelle_fullwood_resume.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliography.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>
