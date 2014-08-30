@@ -3,6 +3,7 @@ Michelle Fullwood
 
 About
 -----
+* **Available September 2015** 
 * Cambridge, MA
 * maf@mit.edu
 * [www.mit.edu/~maf](http://www.mit.edu/~maf)
@@ -29,7 +30,7 @@ Education
 Experience
 ----------
 **Web Developer, Imperial Consulting** (2008-2010, Boston MA)
-* Developed web applications, both front and back end, in Python, Django and jQuery, for clients in fields ranging from education to biomedical to finance
+* Developed custom web applications, both front and back end, in Python, Django and jQuery, for clients in education, biomedical and finance industries
 
 **External Consultant, Centre for Strategic Infocomm Technologies** (2008–2009, Singapore)
 * Advised client on evaluation procedures in speech and natural language processing
