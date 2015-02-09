@@ -27,6 +27,10 @@ Education
 * Graduated magna cum laude and with distinction in all subjects, 4.0 GPA
 * Study abroad, Fall 2003: Budapest Semesters in Mathematics
 
+**edX and Coursera MOOCs** (ongoing)
+* edX: 6.SFMx Street Fighting Mathematics, 11.132x Design and Development of Educational Technology
+* Coursera: Functional Programming Principles in Scala, The Data Scientist's Toolbox, R Programming, Exploratory Data Analysis, Getting and Cleaning Data, Reproducible Research
+
 Experience
 ----------
 **Web Developer, Imperial Consulting** (2008-2010, Boston MA)
