@@ -3,23 +3,22 @@ Michelle Fullwood
 
 About
 -----
-* **Available September 2015** 
 * Cambridge, MA
 * maf@mit.edu
-* [www.mit.edu/~maf](http://www.mit.edu/~maf)
-* [github.com/michelleful](http://github.com/michelleful)
+* [michelleful.github.io](https://michelleful.github.io)
+* [github.com/michelleful](https://github.com/michelleful)
 * [Link to PDF version of this résumé](https://github.com/michelleful/CV/raw/master/michelle_fullwood_resume.pdf)
 
 Summary
 -------
-* Full-stack developer with 8 years of experience in Python
-* Background in speech & language processing and web development
-* Excellent analytic skills honed via degrees in linguistics and mathematics and a penchant for solving puzzles
+* Natural Language Processing Scientist with strong background in linguistics and math
+* 10+ years of experience in Python and web development
 
 Education
 ---------
-**Ph.D. program in Linguistics, Massachusetts Institute of Technology** (2010-present)
-* Research on problems in computational morphology and formal phonology
+**Ph.D. in Linguistics, Massachusetts Institute of Technology** (2010-2018)
+* Computational & experimental research on acquisition of Arabic morphology
+* Dissertation: *Biases in Segmenting Non-concatenative Morphology*
 * Coursework in linguistics, machine learning and Bayesian techniques
 * Teaching assistant in introductory linguistics and phonology
 
@@ -27,12 +26,20 @@ Education
 * Graduated magna cum laude and with distinction in all subjects, 4.0 GPA
 * Study abroad, Fall 2003: Budapest Semesters in Mathematics
 
-**edX and Coursera MOOCs** (ongoing)
-* edX: 6.SFMx Street Fighting Mathematics, 11.132x Design and Development of Educational Technology
-* Coursera: Functional Programming Principles in Scala, The Data Scientist's Toolbox, R Programming, Exploratory Data Analysis, Getting and Cleaning Data, Reproducible Research
+**MOOCs from edX, Coursera, FutureLearn, etc.** (ongoing)
+* Constantly improving my data science, deep learning, and programming skills
 
 Experience
 ----------
+**Natural Language Processing Scientist, Spirit AI** (2017–present, remote)
+* Build pipeline of preprocessors and classifiers for detecting toxicity in text
+* Research and implement NLU algorithms for chatbot–like product
+* Build in-house tools for annotating and managing data
+
+**Consultant, Vista Higher Learning** (2015–2017, Boston MA)
+* Advised client on architectural design and data collection for Spanish and French speech recognizers for second language learners
+* Analyzed data to better understand corpus characteristics and recognizer performance
+
 **Web Developer, Imperial Consulting** (2008-2010, Boston MA)
 * Developed custom web applications, both front and back end, in Python, Django and jQuery, for clients in education, biomedical and finance industries
 
@@ -49,9 +56,12 @@ Experience
 
 Skills
 ------
-**Programming:** Python, Django, Flask, Javascript, jQuery, R, Perl, Matlab/Octave, SQL, git
+**Programming:**
+* *General:* Python, JavaScript, git
+* *NLP/DS:* SpaCy, PyTorch, scikit-learn, gensim, Pandas, Spark, R, SQL
+* *Web:* Django, Flask, VueJS, jQuery
 
-**Languages:** English (native), French (advanced), Mandarin (advanced), Arabic (intermediate), Japanese (elementary), Hungarian (elementary)
+**Languages:** English (native), French (advanced), Mandarin (advanced), Arabic (intermediate), Japanese (intermediate), Hungarian (elementary), Hieroglyphic Egyptian (elementary)
 
 Awards
 ------
@@ -64,17 +74,19 @@ Awards
 * Dean's List (2000-2004)
 * Public Service Commission (Singapore) Overseas Merit Scholarship (2000)
 
-Projects
---------
-**Bayesian inference of non-concatenative morphology** (2012-present, MIT)
-* Extended state-of-the-art Bayesian techniques for morphological learning to the more complex case of non-concatenative morphology (Arabic, Hebrew)
-* Wrote a Markov Chain Monte Carlo (MCMC) sampler in Python to perform inference on a Bayesian generative model of non-concatenative morphology
+Other
+-----
+**Python community**
+* Boston Python co-organizer
+* Volunteer tutor and event organizer for PyLadies Boston (2013-2016)
+* Speaker at PyCon 2015, 2017, PyData NYC 2014, numerous occasions at Boston Python and PyLadies Boston
+
+**Linguistic Streetmap of Singapore** (2015)
+* Used machine learning (scikit-learn) and mapping technologies to create a visualization of linguistic origins of Singapore streetnames
+* [Link](http://michelleful.github.io/code-blog/2015/04/24/sgmap/)
 
 **Fuzzy Arabic Dictionary** (2014, personal)
 * Developed a novel Arabic dictionary that can be queried via transliteration, rather than needing to know the exact orthography,
 * Mash-up of the Yamli transliteration service and Buckwalter Arabic Morphological Analyzer
-* Live at http://fuzzyarabic.herokuapp.com
-
-**Volunteer tutor**, PyLadies Boston (2013-present)
-* Delivered presentations on beginner and intermediate Python topics and tutored women who are learning to program in Python
+* [Link](http://fuzzyarabic.herokuapp.com)
 
