@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.26)  15 JUL 2019 18:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.26)  15 JUL 2019 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,31 +1378,31 @@ LaTeX Info: Redefining \nameref on input line 9.
 \openout6 = `michelle_fullwood_resume.out'.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 62.
+(Font)              scaled to size 10.00015pt on input line 64.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 62.
+(Font)              scaled to size 7.01247pt on input line 64.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 62.
+(Font)              scaled to size 4.9808pt on input line 64.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 62.
+(Font)              scaled to size 9.99985pt on input line 64.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 62.
+(Font)              scaled to size 7.01224pt on input line 64.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 62.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 72.
+(Font)              scaled to size 4.98067pt on input line 64.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 62--86
+Underfull \hbox (badness 10000) in paragraph at lines 64--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
+Underfull \hbox (badness 10000) in paragraph at lines 91--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--163
+Underfull \hbox (badness 10000) in paragraph at lines 142--165
 
  []
 
@@ -1413,11 +1413,11 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./michelle_fullwood_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 166.
 Package logreq Info: Writing requests to 'michelle_fullwood_resume.run.xml'.
 \openout1 = `michelle_fullwood_resume.run.xml'.
 
@@ -1425,7 +1425,7 @@ Package logreq Info: Writing requests to 'michelle_fullwood_resume.run.xml'.
 Here is how much of TeX's memory you used:
  39183 strings out of 493007
  759152 string characters out of 6136718
- 1268140 words of memory out of 5000000
+ 1269140 words of memory out of 5000000
  42728 multiletter control sequences out of 15000+600000
  532618 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
